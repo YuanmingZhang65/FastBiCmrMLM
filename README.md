@@ -1,6 +1,6 @@
 FastBiCmrMLM (Fast Binary-trait Compressed variance component multi-locus random-SNP-effect Mixed Logistic Model) is an R package designed for case-control genome-wide association study (GWAS), which consider additive and dominant effects and their polygenic backgrounds in a compressed variance component mixed logistic model.
 
-The current version, FastBiCmrMLM v0.0.1, features four algorithms:
+The current version (2025-04-14), FastBiCmrMLM v0.0.1, features four algorithms:
 1) FastBiCmrMLM: Primary algorithm for FastBiCmrMLM, which is used to analyze small samples with the number of individuals less than 1,000.
 2) FastBiCmrMLM-Time: A fast version of FastBiCmrMLM, which is used to analyze the samples with the number of individuals from 1,000 to 20,000. FastBiCmrMLM-Time took about seven minutes for one disease of WTCCC1 datasets.
 3) FastBiCmrMLM-RAM: Optimized for memory efficiency, which is used to save memory when sample size is large (≥ 20,000). In the analysis of biobank-scale simulation datasets (500,000 individuals and one million SNP markers), FastBiCmrMLM-RAM took about 13.5 hours on the server with 10 CPUs and the memory usage of 141 Gb for one sample.
